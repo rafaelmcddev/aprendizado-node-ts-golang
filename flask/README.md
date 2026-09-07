@@ -16,6 +16,8 @@ comparam o que muda de "framework completo" pra "framework mínimo".
 7. [Debug (dd/print/raise?)](./docs/07-debug.md)
 8. [Dependências (pip)](./docs/08-dependencias.md)
 9. [Imports](./docs/09-imports.md)
+10. [Classes, métodos e properties](./docs/10-classes-metodos-propriedades.md)
+11. [Migrations](./docs/11-migrations.md)
 
 ## API de exemplo
 

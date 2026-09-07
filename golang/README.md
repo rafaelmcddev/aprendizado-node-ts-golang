@@ -20,6 +20,8 @@ vem com servidor HTTP na standard library.
 7. [Debug (dd/print/raise?)](./docs/07-debug.md)
 8. [Dependências (go mod)](./docs/08-dependencias.md)
 9. [Imports](./docs/09-imports.md)
+10. ["Classes", métodos e properties (structs)](./docs/10-structs-metodos-propriedades.md)
+11. [Migrations](./docs/11-migrations.md)
 
 ## API de exemplo
 

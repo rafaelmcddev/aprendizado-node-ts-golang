@@ -42,10 +42,12 @@ Cada pasta tem:
 7. Como debugar (equivalente ao `dd()`/`print()`/`raise`)
 8. Como instalar e usar dependências
 9. Onde ficam os imports
-10. Uma API REST simples, ponta a ponta, testada e rodável
+10. Classes, métodos e properties (em Go: structs, já que Go não tem classe)
+11. Migrations
+12. Uma API REST simples, ponta a ponta, testada e rodável
 
 ## Ordem sugerida
 
-Leia `docs/01` a `09` de uma stack por vez, depois rode a `api-exemplo/`
+Leia `docs/00` a `11` de uma stack por vez, depois rode a `api-exemplo/`
 dela. Não precisa ler as quatro juntas — escolha pelo que o mercado está
 pedindo na vaga que você está de olho.

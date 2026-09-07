@@ -1,0 +1,26 @@
+# FastAPI
+
+Framework Python focado 100% em API (não tem Admin, não tem ORM próprio,
+não tem template engine "oficial" tipo o Jinja do Flask). Como você já
+sabe Django, os docs aqui comparam direto com o que você já conhece, sem
+reexplicar Python.
+
+Diferencial do FastAPI: tipagem com type hints vira validação automática
+(Pydantic) e documentação automática (Swagger) de graça.
+
+## Docs (leitura de 2 min cada)
+
+1. [Arquivo de configuração](./docs/01-arquivo-de-configuracao.md)
+2. [Rota → qual arquivo é chamado](./docs/02-rotas-e-arquivos.md)
+3. [Fluxo da requisição](./docs/03-fluxo-da-requisicao.md)
+4. [Backend chamando o front](./docs/04-backend-chama-front.md)
+5. [Model / View / Controller](./docs/05-mvc.md)
+6. [Testes unitários](./docs/06-testes-unitarios.md)
+7. [Debug (dd/print/raise?)](./docs/07-debug.md)
+8. [Dependências (pip)](./docs/08-dependencias.md)
+9. [Imports](./docs/09-imports.md)
+
+## API de exemplo
+
+[`api-exemplo/`](./api-exemplo) — CRUD de usuários, sem banco, com
+validação automática via Pydantic e Swagger grátis em `/docs`.

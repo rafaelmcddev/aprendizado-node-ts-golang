@@ -4,8 +4,12 @@ Node.js = ambiente que roda JavaScript fora do navegador (tipo o PHP-FPM,
 mas pra JS). TypeScript = JavaScript com tipos, parecido com type hints do
 Python, só que checado antes de rodar (compila pra JS puro).
 
+> Se você sempre evitou Node por achar que era "aquele JS de clique e
+> DOM", leia primeiro: [00 — não é frontend](./docs/00-backend-vs-frontend.md).
+
 ## Docs (leitura de 2 min cada)
 
+0. [Isso não é o JS de manipular botão?](./docs/00-backend-vs-frontend.md)
 1. [Arquivo de configuração](./docs/01-arquivo-de-configuracao.md)
 2. [Rota → qual arquivo é chamado](./docs/02-rotas-e-arquivos.md)
 3. [Fluxo da requisição](./docs/03-fluxo-da-requisicao.md)

@@ -12,6 +12,10 @@ minutos de leitura, o arquivo está errado.
 > [`node-ts/docs/00-backend-vs-frontend.md`](./node-ts/docs/00-backend-vs-frontend.md)
 > primeiro — é exatamente sobre isso.
 
+Cada stack com sintaxe muito diferente de Python/PHP tem um doc `00` só
+pra isso — coisas tipo `:=` e nome de função maiúsculo em Go, ou `=>` e
+`{ }` de destructuring em TypeScript. Comece por ele antes do `01`.
+
 ## Como usar
 
 Toda dúvida do tipo "como funciona X nessa stack?" tem resposta objetiva

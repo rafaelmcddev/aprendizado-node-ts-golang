@@ -10,6 +10,7 @@ Python, só que checado antes de rodar (compila pra JS puro).
 ## Docs (leitura de 2 min cada)
 
 0. [Isso não é o JS de manipular botão?](./docs/00-backend-vs-frontend.md)
+0. [Sintaxe estranha (`:tipo`, `=>`, `{ }`, `...`, `??`)](./docs/00-sintaxe-estranha.md)
 1. [Arquivo de configuração](./docs/01-arquivo-de-configuracao.md)
 2. [Rota → qual arquivo é chamado](./docs/02-rotas-e-arquivos.md)
 3. [Fluxo da requisição](./docs/03-fluxo-da-requisicao.md)

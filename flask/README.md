@@ -22,6 +22,8 @@ Termo estranho? Veja o [glossário cruzado](../GLOSSARIO.md) na raiz do reposit�
 11. [Migrations](./docs/11-migrations.md)
 12. [Funções e estruturas built-in mais usadas](./docs/12-funcoes-e-estruturas-comuns.md)
 13. [Erros comuns](./docs/13-erros-comuns.md)
+14. [Regras gerais de sintaxe](./docs/14-regras-gerais-de-sintaxe.md)
+15. [Começando um projeto do zero (e onde ficam os logs)](./docs/15-comecando-do-zero.md)
 
 ## API de exemplo
 

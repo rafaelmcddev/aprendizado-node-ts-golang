@@ -16,6 +16,10 @@ Cada stack com sintaxe muito diferente de Python/PHP tem um doc `00` só
 pra isso — coisas tipo `:=` e nome de função maiúsculo em Go, ou `=>` e
 `{ }` de destructuring em TypeScript. Comece por ele antes do `01`.
 
+Travou num termo que não conhece (tipo "middleware" ou "path operation")?
+Veja o [`GLOSSARIO.md`](./GLOSSARIO.md) — cruza o termo de cada stack com
+o equivalente em Django/Laravel.
+
 ## Como usar
 
 Toda dúvida do tipo "como funciona X nessa stack?" tem resposta objetiva
@@ -48,10 +52,11 @@ Postman — collection pronta em [`/postman`](./postman) — ou por `curl`.
 10. Classes, métodos e properties (em Go: structs, já que Go não tem classe)
 11. Migrations
 12. Funções e estruturas built-in mais usadas (as ~10 mais comuns de cada stack)
-13. Uma API REST simples, ponta a ponta, testada e rodável — dá pra testar pelo Postman ([`/postman`](./postman)) ou por `curl`
+13. Erros comuns (os que todo mundo bate no começo)
+14. Uma API REST simples, ponta a ponta, testada e rodável — dá pra testar pelo Postman ([`/postman`](./postman)) ou por `curl`
 
 ## Ordem sugerida
 
-Leia `docs/00` a `12` de uma stack por vez, depois rode a `api-exemplo/`
+Leia `docs/00` a `13` de uma stack por vez, depois rode a `api-exemplo/`
 dela. Não precisa ler as quatro juntas — escolha pelo que o mercado está
 pedindo na vaga que você está de olho.

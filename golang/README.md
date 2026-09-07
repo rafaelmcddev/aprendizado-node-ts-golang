@@ -8,6 +8,8 @@ vem com servidor HTTP na standard library.
 > `*` antes do tipo, `t.Errorf` — se isso te travou, leia primeiro:
 > [00 — sintaxe estranha](./docs/00-sintaxe-estranha.md).
 
+Termo estranho? Veja o [glossário cruzado](../GLOSSARIO.md) na raiz do repositório.
+
 ## Docs (leitura de 2 min cada)
 
 0. [Sintaxe estranha (maiúscula, `w`/`r`, `:=`, `*`, `t.Errorf`)](./docs/00-sintaxe-estranha.md)
@@ -23,6 +25,7 @@ vem com servidor HTTP na standard library.
 10. ["Classes", métodos e properties (structs)](./docs/10-structs-metodos-propriedades.md)
 11. [Migrations](./docs/11-migrations.md)
 12. [Funções e pacotes da standard library mais usados](./docs/12-funcoes-e-estruturas-comuns.md)
+13. [Erros comuns](./docs/13-erros-comuns.md)
 
 ## API de exemplo
 

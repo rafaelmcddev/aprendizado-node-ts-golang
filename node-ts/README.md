@@ -7,6 +7,8 @@ Python, só que checado antes de rodar (compila pra JS puro).
 > Se você sempre evitou Node por achar que era "aquele JS de clique e
 > DOM", leia primeiro: [00 — não é frontend](./docs/00-backend-vs-frontend.md).
 
+Termo estranho? Veja o [glossário cruzado](../GLOSSARIO.md) na raiz do repositório.
+
 ## Docs (leitura de 2 min cada)
 
 0. [Isso não é o JS de manipular botão?](./docs/00-backend-vs-frontend.md)
@@ -23,6 +25,7 @@ Python, só que checado antes de rodar (compila pra JS puro).
 10. [Classes, métodos e properties](./docs/10-classes-metodos-propriedades.md)
 11. [Migrations](./docs/11-migrations.md)
 12. [Funções e estruturas built-in mais usadas](./docs/12-funcoes-e-estruturas-comuns.md)
+13. [Erros comuns](./docs/13-erros-comuns.md)
 
 ## API de exemplo
 

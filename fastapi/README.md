@@ -8,6 +8,8 @@ reexplicar Python.
 Diferencial do FastAPI: tipagem com type hints vira validação automática
 (Pydantic) e documentação automática (Swagger) de graça.
 
+Termo estranho? Veja o [glossário cruzado](../GLOSSARIO.md) na raiz do repositório.
+
 ## Docs (leitura de 2 min cada)
 
 1. [Arquivo de configuração](./docs/01-arquivo-de-configuracao.md)
@@ -22,6 +24,7 @@ Diferencial do FastAPI: tipagem com type hints vira validação automática
 10. [Classes, métodos e properties](./docs/10-classes-metodos-propriedades.md)
 11. [Migrations](./docs/11-migrations.md)
 12. [Funções e estruturas built-in mais usadas](./docs/12-funcoes-e-estruturas-comuns.md)
+13. [Erros comuns](./docs/13-erros-comuns.md)
 
 ## API de exemplo
 

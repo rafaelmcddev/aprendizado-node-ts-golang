@@ -5,6 +5,8 @@ não vem com Admin, não vem com estrutura de pastas imposta. Você monta a
 casa do zero, peça por peça. Como você já conhece Django, os docs aqui
 comparam o que muda de "framework completo" pra "framework mínimo".
 
+Termo estranho? Veja o [glossário cruzado](../GLOSSARIO.md) na raiz do repositório.
+
 ## Docs (leitura de 2 min cada)
 
 1. [Arquivo de configuração](./docs/01-arquivo-de-configuracao.md)
@@ -19,6 +21,7 @@ comparam o que muda de "framework completo" pra "framework mínimo".
 10. [Classes, métodos e properties](./docs/10-classes-metodos-propriedades.md)
 11. [Migrations](./docs/11-migrations.md)
 12. [Funções e estruturas built-in mais usadas](./docs/12-funcoes-e-estruturas-comuns.md)
+13. [Erros comuns](./docs/13-erros-comuns.md)
 
 ## API de exemplo
 

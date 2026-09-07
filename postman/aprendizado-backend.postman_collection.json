@@ -1,0 +1,139 @@
+{
+  "info": {
+    "name": "Aprendizado Backend — APIs de exemplo",
+    "description": "Collection pra testar as 4 APIs deste repositório (Node+TS, Go, FastAPI, Flask). Rode UMA stack por vez (elas usam a mesma porta por padrão) e chame as requisições da pasta correspondente.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "node_base", "value": "http://localhost:3000" },
+    { "key": "go_base", "value": "http://localhost:3000" },
+    { "key": "fastapi_base", "value": "http://localhost:8000" },
+    { "key": "flask_base", "value": "http://localhost:3000" }
+  ],
+  "item": [
+    {
+      "name": "Node + TS",
+      "item": [
+        {
+          "name": "Lista usuários",
+          "request": {
+            "method": "GET",
+            "url": "{{node_base}}/users"
+          }
+        },
+        {
+          "name": "Busca usuário por id",
+          "request": {
+            "method": "GET",
+            "url": "{{node_base}}/users/1"
+          }
+        },
+        {
+          "name": "Cria usuário",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Grace Hopper\",\n  \"email\": \"grace@example.com\"\n}"
+            },
+            "url": "{{node_base}}/users"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Go",
+      "item": [
+        {
+          "name": "Lista usuários",
+          "request": {
+            "method": "GET",
+            "url": "{{go_base}}/users"
+          }
+        },
+        {
+          "name": "Busca usuário por id",
+          "request": {
+            "method": "GET",
+            "url": "{{go_base}}/users/1"
+          }
+        },
+        {
+          "name": "Cria usuário",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Grace Hopper\",\n  \"email\": \"grace@example.com\"\n}"
+            },
+            "url": "{{go_base}}/users"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "item": [
+        {
+          "name": "Lista usuários",
+          "request": {
+            "method": "GET",
+            "url": "{{fastapi_base}}/users/"
+          }
+        },
+        {
+          "name": "Busca usuário por id",
+          "request": {
+            "method": "GET",
+            "url": "{{fastapi_base}}/users/1"
+          }
+        },
+        {
+          "name": "Cria usuário",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Grace Hopper\",\n  \"email\": \"grace@example.com\"\n}"
+            },
+            "url": "{{fastapi_base}}/users/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flask",
+      "item": [
+        {
+          "name": "Lista usuários",
+          "request": {
+            "method": "GET",
+            "url": "{{flask_base}}/users/"
+          }
+        },
+        {
+          "name": "Busca usuário por id",
+          "request": {
+            "method": "GET",
+            "url": "{{flask_base}}/users/1"
+          }
+        },
+        {
+          "name": "Cria usuário",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Grace Hopper\",\n  \"email\": \"grace@example.com\"\n}"
+            },
+            "url": "{{flask_base}}/users/"
+          }
+        }
+      ]
+    }
+  ]
+}

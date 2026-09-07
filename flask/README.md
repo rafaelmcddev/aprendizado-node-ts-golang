@@ -18,6 +18,7 @@ comparam o que muda de "framework completo" pra "framework mínimo".
 9. [Imports](./docs/09-imports.md)
 10. [Classes, métodos e properties](./docs/10-classes-metodos-propriedades.md)
 11. [Migrations](./docs/11-migrations.md)
+12. [Funções e estruturas built-in mais usadas](./docs/12-funcoes-e-estruturas-comuns.md)
 
 ## API de exemplo
 

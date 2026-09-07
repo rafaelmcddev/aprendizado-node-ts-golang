@@ -20,6 +20,8 @@ Abra `http://localhost:8000/docs` → Swagger, testa a API sem precisar de nada.
 pytest
 ```
 
+> Também dá pra testar pelo Postman: collection pronta em [`/postman`](../../postman).
+
 ## Endpoints
 
 | Método | Rota | O que faz |

@@ -22,6 +22,7 @@ vem com servidor HTTP na standard library.
 9. [Imports](./docs/09-imports.md)
 10. ["Classes", métodos e properties (structs)](./docs/10-structs-metodos-propriedades.md)
 11. [Migrations](./docs/11-migrations.md)
+12. [Funções e pacotes da standard library mais usados](./docs/12-funcoes-e-estruturas-comuns.md)
 
 ## API de exemplo
 

@@ -20,6 +20,8 @@ Abra `http://localhost:3000/users/` → JSON puro.
 pytest
 ```
 
+> Também dá pra testar pelo Postman: collection pronta em [`/postman`](../../postman).
+
 ## Endpoints
 
 | Método | Rota | O que faz |

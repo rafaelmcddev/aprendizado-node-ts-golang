@@ -20,6 +20,8 @@ Pra mudar a porta: `PORT=4000 go run main.go`.
 go test ./...
 ```
 
+> Também dá pra testar pelo Postman: collection pronta em [`/postman`](../../postman).
+
 ## Endpoints
 
 | Método | Rota | O que faz |

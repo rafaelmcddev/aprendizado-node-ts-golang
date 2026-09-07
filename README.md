@@ -31,6 +31,9 @@ Cada pasta tem:
 - `docs/` → textos curtos, um por tópico
 - `api-exemplo/` → uma API REST simples e real que você roda e mexe
 
+Testado e funcionando de verdade: dá pra chamar todas as APIs pelo
+Postman — collection pronta em [`/postman`](./postman) — ou por `curl`.
+
 ## Tópicos cobertos (nas 4 stacks)
 
 1. Arquivo de configuração
@@ -44,10 +47,11 @@ Cada pasta tem:
 9. Onde ficam os imports
 10. Classes, métodos e properties (em Go: structs, já que Go não tem classe)
 11. Migrations
-12. Uma API REST simples, ponta a ponta, testada e rodável
+12. Funções e estruturas built-in mais usadas (as ~10 mais comuns de cada stack)
+13. Uma API REST simples, ponta a ponta, testada e rodável — dá pra testar pelo Postman ([`/postman`](./postman)) ou por `curl`
 
 ## Ordem sugerida
 
-Leia `docs/00` a `11` de uma stack por vez, depois rode a `api-exemplo/`
+Leia `docs/00` a `12` de uma stack por vez, depois rode a `api-exemplo/`
 dela. Não precisa ler as quatro juntas — escolha pelo que o mercado está
 pedindo na vaga que você está de olho.

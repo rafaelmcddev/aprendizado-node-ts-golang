@@ -4,13 +4,13 @@ Go = linguagem compilada, tipada, feita pro Google, muito usada em
 backend/infra hoje. Sem framework "padrão" tipo Django — o próprio Go já
 vem com servidor HTTP na standard library.
 
-> Nome de função maiúsculo, `w`/`r` como parâmetro, `:=` em vez de `=` —
-> se isso te travou, leia primeiro:
+> Nome de função maiúsculo, `w`/`r` como parâmetro, `:=` em vez de `=`,
+> `*` antes do tipo, `t.Errorf` — se isso te travou, leia primeiro:
 > [00 — sintaxe estranha](./docs/00-sintaxe-estranha.md).
 
 ## Docs (leitura de 2 min cada)
 
-0. [Sintaxe estranha (maiúscula, `w`/`r`, `:=`)](./docs/00-sintaxe-estranha.md)
+0. [Sintaxe estranha (maiúscula, `w`/`r`, `:=`, `*`, `t.Errorf`)](./docs/00-sintaxe-estranha.md)
 1. [Arquivo de configuração](./docs/01-arquivo-de-configuracao.md)
 2. [Rota → qual arquivo é chamado](./docs/02-rotas-e-arquivos.md)
 3. [Fluxo da requisição](./docs/03-fluxo-da-requisicao.md)

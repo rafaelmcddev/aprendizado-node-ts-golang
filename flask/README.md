@@ -24,6 +24,9 @@ Termo estranho? Veja o [glossário cruzado](../GLOSSARIO.md) na raiz do reposit�
 13. [Erros comuns](./docs/13-erros-comuns.md)
 14. [Regras gerais de sintaxe](./docs/14-regras-gerais-de-sintaxe.md)
 15. [Começando um projeto do zero (e onde ficam os logs)](./docs/15-comecando-do-zero.md)
+16. [Status HTTP e como retornar erro](./docs/16-status-http-e-erros.md)
+17. [Variáveis de ambiente e segredos](./docs/17-variaveis-de-ambiente-e-segredos.md)
+18. [Próximos passos](./docs/18-proximos-passos.md)
 
 ## API de exemplo
 

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>Exemplo: front chamando backend</title>
+</head>
+<body>
+  <h1>Usuários</h1>
+  <ul id="lista"></ul>
+
+  <script>
+    // Isso aqui é o "front" chamando o backend. O backend nunca chama o front.
+    fetch('/users')
+      .then((r) => r.json())
+      .then((users) => {
+        const ul = document.getElementById('lista');
+        ul.innerHTML = users.map((u) => `<li>${u.name} — ${u.email}</li>`).join('');
+      });
+  </script>
+</body>
+</html>
